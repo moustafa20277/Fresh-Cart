@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import style from './RelatedProducts.module.css'
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import Lodear from '../Lodear/Lodear';

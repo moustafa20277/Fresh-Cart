@@ -25,7 +25,6 @@ export default function ResetPassword() {
     try {
       setSpinner('flex')
       const data = await axios.put('https://ecommerce.routemisr.com/api/v1/auth/resetPassword', value)
-      console.log(data);
 
       if (data.status == 200) {
         toast.success('Password has changed successfully', {
@@ -36,7 +35,6 @@ export default function ResetPassword() {
       }
 
     } catch (error) {
-      console.log(error);
 
       setError(error.response.data.message)
       toast.error('Please Try Again Later', {

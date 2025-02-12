@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import style from './RecentProducts.module.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import Lodear from '../Lodear/Lodear'

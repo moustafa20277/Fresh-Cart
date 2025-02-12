@@ -12,8 +12,7 @@ export default function Orders() {
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(null)
 
-  console.log(orders);
-
+  
   async function getOrders() {
     setLoading(true)
     try {

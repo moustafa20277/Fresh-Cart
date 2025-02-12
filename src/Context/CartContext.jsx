@@ -56,7 +56,6 @@ export default function CartContextprovider({ children }) {
             if (count > 0) {
                 const { data } = await axios.put(API + '/' + productId, { count, }, { headers, })
                 getCard()
-                console.log(data);
                 return data
             } else {
                 deleteItem(productId)

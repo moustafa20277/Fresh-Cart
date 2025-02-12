@@ -1,5 +1,4 @@
-import React, { lazy, Suspense, useEffect ,useRef,useState } from 'react'
-import style from './layout.module.css'
+import React, { lazy, Suspense ,useRef } from 'react'
 import { Outlet } from 'react-router-dom'
 
 

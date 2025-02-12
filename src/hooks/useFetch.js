@@ -14,9 +14,7 @@ export default function useFetch(Api , page) {
       const { data } = await axios.get(Api + currentPage)
       setList(data)
     } catch (error) {
-      setError('There is a problem with the server.')
-      console.log(error);
-      
+      setError('There is a problem with the server.')      
     } finally {
       setLoading(null)
     }

@@ -1,5 +1,4 @@
-import React, { lazy, Suspense, useEffect, useState } from 'react'
-import style from './products.module.css'
+import React, { lazy, Suspense } from 'react'
 import { Helmet } from 'react-helmet-async';
 
 
